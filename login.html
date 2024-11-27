@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="./assets/CSS/login.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="login-header">
+                <h1>Masuk atau Daftar</h1>
+                <p>Pilih opsi di bawah untuk login atau mendaftar akun baru.</p>
+            </div>
+            <div class="login-buttons">
+                <button class="btn" onclick="showPopup('login')">Login</button>
+                <button class="btn" onclick="showPopup('register')">Registrasi</button>
+            </div>
+        </div>
+        
+        <!-- Popup Forms -->
+        <div id="popup-login" class="popup">
+            <div class="popup-content">
+                <h2>Form Login</h2>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                    <button type="submit" class="btn">Login</button>
+                    <button type="button" class="btn close" onclick="closePopup()">Batal</button>
+                </form>
+            </div>
+        </div>
+        
+        <div id="popup-register" class="popup">
+            <div class="popup-content">
+                <h2>Form Registrasi</h2>
+                <form>
+                    <label for="new-username">Username:</label>
+                    <input type="text" id="new-username" name="new-username" placeholder="Buat username" required>
+                    <label for="new-password">Password:</label>
+                    <input type="password" id="new-password" name="new-password" placeholder="Buat password" required>
+                    <label for="confirm-password">Konfirmasi Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Konfirmasi password" required>
+                    <button type="submit" class="btn">Daftar</button>
+                    <button type="button" class="btn close" onclick="closePopup()">Batal</button>
+                </form>
+            </div>
+        </div>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>

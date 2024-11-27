@@ -1,0 +1,106 @@
+.login-container {
+    max-width: 1150px; /* Sesuaikan lebar container */
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    border-radius: 8px;
+    height: 350px; /* Sesuaikan tinggi untuk muat di dalam kontainer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+.login-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.popup {
+    display: none; /* Popup tersembunyi saat tidak aktif */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    padding: 20px;
+    border: 1px solid rgba(44, 252, 2, 0.941);;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.popup-content h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup-content label {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.popup-content input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.popup-content .btn {
+    margin-top: 10px;
+}
+
+.popup-content .btn.close {
+    background-color: #f44336;
+}
+
+.popup-content .btn.close:hover {
+    background-color: #e53935;
+}
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}

@@ -1,0 +1,69 @@
+.profile-container {
+    max-width: 1150px; /* Lebar disesuaikan agar muat di dalam konten */
+    margin: auto;
+    padding: 20px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    border-radius: 8px;
+    height: 350px; /* Tinggi disesuaikan agar muat dalam konten */
+    overflow-y: auto; /* Tambahkan scroll jika konten melebihi tinggi */
+    box-sizing: border-box;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    width: 120px; /* Ukuran gambar agar proporsional */
+    height: 120px;
+    object-fit: cover;
+    border: 4px solid #4CAF50;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2em; /* Ukuran font disesuaikan */
+    color: white;
+}
+
+.profile-info .tagline {
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+.bio, .cv {
+    margin: 10px 0;
+}
+
+.bio p, .cv ul {
+    font-size: 0.9em; /* Ukuran font lebih kecil agar lebih pas */
+    line-height: 1.5;
+}
+
+.cv ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv ul li {
+    margin-bottom: 8px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}

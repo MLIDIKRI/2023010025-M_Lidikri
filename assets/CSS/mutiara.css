@@ -1,0 +1,79 @@
+.konten-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 8px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    height: 350px; /* Sesuaikan tinggi untuk kontainer */
+    overflow-y: auto; /* Tambahkan scroll jika konten terlalu panjang */
+    box-sizing: border-box;
+    color: #333;
+}
+
+.konten-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.konten-header h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.konten-header p {
+    font-size: 1.1em;
+    color:white;
+}
+
+.konten-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    border: 1px solid rgba(44, 252, 2, 0.941);;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.konten-item {
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
+    border: 1px solid rgba(44, 252, 2, 0.941);;
+    border-radius: 8px;
+    width: 30%; /* Lebar tiap konten item */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.konten-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.konten-item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.konten-item p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.6;
+}
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}
