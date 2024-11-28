@@ -6,8 +6,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 4px 6px rgba(44, 252, 2, 0.941);
     border-radius: 8px;
-    height: 350px; /* Tinggi disesuaikan agar muat dalam konten */
-    overflow-y: auto; /* Tambahkan scroll jika konten melebihi tinggi */
+    height: 600px; /* Tinggi disesuaikan agar muat dalam konten */
     box-sizing: border-box;
 }
 
